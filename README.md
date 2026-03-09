@@ -63,7 +63,7 @@ En este proyecto grupal, asumí el rol de **Data Engineer & Data Analyst**, enca
 * **Eficiencia en Costos:** Configuré AWS Instance Scheduler para automatizar el encendido y apagado de la base de datos según los horarios de trabajo del equipo, logrando una optimización significativa de los costos operativos del proyecto en la nube.
 
 > **Visualización de la Infraestructura en AWS:**
-> ![Conexión AWS RDS](./tu-carpeta-de-imagenes/foto-aws-rds.png) 
+> ![Conexión AWS RDS](./Base_de_Datos_RDS_Justina.png) 
 > *(Referencia de la instancia de base de datos activa en la nube)*
 
 ### 🔍 Calidad de Datos (Data Quality)
