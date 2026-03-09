@@ -58,7 +58,7 @@ En este proyecto grupal, asumí el rol de **Data Engineer & Data Analyst**, enca
 * **Lógica de Negocio:** Implementé en el código la lógica para la normalización de variables críticas, asegurando que los datos de entrada fueran compatibles con el modelo relacional.
 
 ### 🗄️ Arquitectura SQL Server y Despliegue en AWS RDS
-* **Modelado de Datos:** Diseñé y ejecuté el esquema relacional en SQL Server, optimizando las entidades de Hospitales, Competidores y Cotizaciones para el consumo de BI.
+* **Modelado de Datos:** Diseñé y ejecuté el esquema relacional en SQL Server, optimizando las entidades para el consumo de BI.
 * **Infraestructura Cloud:** Implementeé el despliegue de la base de datos en **AWS RDS (Relational Database Service)**, permitiendo que el equipo tuviera una fuente de verdad única, escalable y accesible de forma remota para el dashboard de Power BI.
 * **Eficiencia en Costos:** Configuré AWS Instance Scheduler para automatizar el encendido y apagado de la base de datos según los horarios de trabajo del equipo, logrando una optimización significativa de los costos operativos del proyecto en la nube.
 
