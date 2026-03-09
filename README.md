@@ -47,6 +47,31 @@ Construir un **modelo analítico que permita evaluar la adopción de robótica q
 El resultado es un **sistema de análisis orientado a decisiones estratégicas e inversión en healthtech**.
 
 ---
+
+# 🛠 Mi Contribución Técnica
+
+En este proyecto grupal, asumí el rol de **Data Engineer & Data Analyst**, encargándome de la infraestructura de datos y la automatización del pipeline. Mis aportes principales fueron:
+
+### 🐍 Desarrollo en Python e Integración de IA
+* **Automatización de Extracción:** Desarrollé scripts en Python para la ingesta de datos, integrando modelos de lenguaje (IA) para procesar y estructurar información.
+* **Optimizacion de Tiempos:** La implementación de IA en el pipeline permitió reducir drásticamente los tiempos de procesamiento y limpieza, acelerando la disponibilidad de los datos para el equipo de análisis.
+* **Lógica de Negocio:** Implementé en el código la lógica para la normalización de variables críticas, asegurando que los datos de entrada fueran compatibles con el modelo relacional.
+
+### 🗄️ Arquitectura SQL Server y Despliegue en AWS RDS
+* **Modelado de Datos:** Diseñé y ejecuté el esquema relacional en SQL Server, optimizando las entidades de Hospitales, Competidores y Cotizaciones para el consumo de BI.
+* **Infraestructura Cloud:** Implementeé el despliegue de la base de datos en **AWS RDS (Relational Database Service)**, permitiendo que el equipo tuviera una fuente de verdad única, escalable y accesible de forma remota para el dashboard de Power BI.
+* **Eficiencia en Costos:** Configuré AWS Instance Scheduler para automatizar el encendido y apagado de la base de datos según los horarios de trabajo del equipo, logrando una optimización significativa de los costos operativos del proyecto en la nube.
+
+> **Visualización de la Infraestructura en AWS:**
+> ![Conexión AWS RDS](./tu-carpeta-de-imagenes/foto-aws-rds.png) 
+> *(Referencia de la instancia de base de datos activa en la nube)*
+
+### 🔍 Calidad de Datos (Data Quality)
+* **Verificación Manual:** Realicé auditorías manuales de fuentes de datos primarias para garantizar la veracidad y calidad de los datos, eliminando sesgos o datos erróneo causados por la IA antes de la carga masiva.
+* **Validación de Fuentes:** Aseguré que la recolección de información pública cumpliera con los estándares necesarios para un análisis de viabilidad económica real.
+
+---
+
 ## 📚 Documentación del Proyecto
 
 En este apartado se encuentra el informe completo del proyecto, donde se detalla el análisis realizado, la metodología utilizada y las conclusiones obtenidas.
