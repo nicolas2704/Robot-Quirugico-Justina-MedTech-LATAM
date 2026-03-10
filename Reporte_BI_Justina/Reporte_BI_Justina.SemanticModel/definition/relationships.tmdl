@@ -1,0 +1,29 @@
+relationship a79f3877-3ac9-4a7a-a38a-61b4c03f4737
+	joinOnDateBehavior: datePartOnly
+	fromColumn: cotizaciones.fecha
+	toColumn: LocalDateTable_8196875e-63ba-4e8f-9c89-bfb948b5dd6d.Date
+
+relationship 33f00158-9aea-4b49-86e5-9e2e5d7edba3
+	fromColumn: relaciones.id_competidores
+	toColumn: competidores.id_competidor
+
+	annotation PBI_IsFromSource = FS
+
+relationship fdb635a6-cc99-413c-91c9-0280c7443b98
+	fromColumn: paises.id_monedas
+	toColumn: cotizaciones.id_moneda
+
+	annotation PBI_IsFromSource = FS
+
+relationship 4602da81-8998-4dde-9466-d41640b4ca71
+	fromColumn: relaciones.id_hospitales
+	toColumn: hospitales.id_hospital
+
+	annotation PBI_IsFromSource = FS
+
+relationship 68f829a0-2e74-4fde-ba71-811c71568a76
+	fromColumn: hospitales.id_pais
+	toColumn: paises.id_pais
+
+	annotation PBI_IsFromSource = FS
+

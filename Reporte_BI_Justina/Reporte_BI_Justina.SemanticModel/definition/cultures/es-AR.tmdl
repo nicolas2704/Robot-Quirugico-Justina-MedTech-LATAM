@@ -1,0 +1,7287 @@
+cultureInfo es-AR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "competidore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "competidore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.id_competidor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "id_competidor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id competidor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_competidor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification competidor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity competidor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier competidor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential competidor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.nombre_robot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "nombre_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_robot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nombre automaton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nombre android": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nombre machine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nombre computer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Robot": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.proveedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "proveedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "proveedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.pais_proveedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "pais_proveedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pais proveedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pais_proveedor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PAÍS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.tipo_cirugia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "tipo_cirugias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo cirugia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_cirugias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.cirugia_renal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "cirugia_renal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cirugia renal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cirugia_renal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.prom_disminucion_dias_inter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "prom_disminucion_dias_inter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prom disminucion dias inter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prom_disminucion_dias_inter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.precio_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "precio_compra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_compra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costo_importacion_imp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "costo_importacion_imp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo importacion imp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "costo_importacion_imp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "costo importacion rascal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion mischief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion urchin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion scalawag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion scallywag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion rapscallion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "costo importacion scamp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "costo importacion elf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "costo importacion goblin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "costo importacion gremlin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costo_site_prep_refaccion_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "costo_site_prep_refaccion_min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo site prep refaccion min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "costo_site_prep_refaccion_min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "costo site prep refaccion minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "costo website prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo campus prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo homepage prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo locale prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo place prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "costo position prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "costo spot prep refaccion min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costo_site_prep_refaccion_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "costo_site_prep_refaccion_max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo site prep refaccion max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "costo_site_prep_refaccion_max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "costo site prep refaccion maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "costo website prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo campus prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo homepage prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo locale prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "costo place prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "costo position prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "costo spot prep refaccion max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.c_var": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "c_var"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "c var": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "c_var": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "var": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costo_kit_cirugia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "costo_kit_cirugia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo kit cirugia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "costo_kit_cirugia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.num_procedimientos_anuale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "num_procedimientos_anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num procedimientos anuale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "num procedimiento anuale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "num_procedimientos_anuales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number procedimiento anuale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.mantenim_postgarantia_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "mantenim_postgarantia_anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mantenim postgarantia anual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mantenim_postgarantia_anual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.formacion_continua_staff": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "formacion_continua_staff"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "formacion continua staff": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "formacion continuum staff": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "formacion_continua_staff": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "formacion continuum workforce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "formacion continuum organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "formacion continuum team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "formacion continuum body": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "formacion continuum force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "formacion continuum rod": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "formacion continuum wand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "formacion continuum baton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.e_gastos_operativos_anuale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "e_gastos_operativos_anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "e gastos operativos anuale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "e gasto operativo anuale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "e_gastos_operativos_anuales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cotizacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.id_moneda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "ConceptualProperty": "id_moneda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id moneda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_moneda": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "ConceptualProperty": "valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "ConceptualProperty": "fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cotizacione.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotizacione.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotizaciones",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitale": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.id_hospital": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "id_hospital"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id hospital": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_hospital": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hospital": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id hospice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id sickbay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id sanatorium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id clinic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.nombre_hospital": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "nombre_hospital"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre hospital": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_hospital": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nombre infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nombre hospice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nombre sickbay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nombre sanatorium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nombre clinic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.tipo_gestion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "tipo_gestion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo gestion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_gestion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "ciudad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ciudad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "city": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hospitale.id_pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "id_pais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id pais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_pais": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.latitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "latitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.longitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "longitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.ranking": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "ranking"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ranking": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hospitales_con_robot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "hospitales_con_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales con robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hospitales_con_robot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hospitale con automaton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hospitale con android": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hospitale con machine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hospitale con computer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hosp_publicos_robot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "hosp_publicos_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hosp publicos robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hosp_publicos_robot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hosp publico automaton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hosp publico android": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hosp publico machine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hosp publico computer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hosp_privados_robot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%hosp_privados_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%hosp_privados_robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage hosp_privados_robot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct hosp_privados_robot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hosp_publicos_robot1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%hosp_publicos_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%hosp_publicos_robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage hosp_publicos_robot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct hosp_publicos_robot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.mercado_abarcado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%mercado_abarcado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%mercado_abarcado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage mercado_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct mercado_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "% Mercado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.mercado_priv_abarcado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%mercado_priv_abarcado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%mercado_priv_abarcado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage mercado_priv_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct mercado_priv_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "% Mercado Privado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hosp_privados_robot1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "hosp_privados_robot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hosp privados robot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hosp_privados_robot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hosp privado automaton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hosp privado android": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hosp privado machine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hosp privado computer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.mercado_publ_abarcado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%mercado_publ_abarcado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%mercado_publ_abarcado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage mercado_publ_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct mercado_publ_abarcado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "% Mercado Público": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "relacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "relaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "relacione.id_registro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "relaciones",
+			          "ConceptualProperty": "id_registro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id registro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_registro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "relacione.id_hospitale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "relaciones",
+			          "ConceptualProperty": "id_hospitales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id hospitale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_hospitales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification hospitale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity hospitale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier hospitale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential hospitale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "relacione.id_competidore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "relaciones",
+			          "ConceptualProperty": "id_competidores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id competidore": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_competidores": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification competidore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity competidore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier competidore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential competidore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paise": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "paise": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paise.id_pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "id_pais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_pais": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paise.nombre_pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "nombre_pais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre pais": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_pais": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PAÍS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.poblacion_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "poblacion_total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "poblacion total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "poblacion_total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "poblacion aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "poblacion overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "paise.cantidad_hospitale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "cantidad_hospitales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad hospitale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cantidad_hospitales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hosp_publico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "hosp_publicos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hosp publico": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hosp_publicos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hosp_privado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "hosp_privados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hosp privado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hosp_privados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.gasto_salud_pbi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "gasto_salud_pbi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gasto salud pbi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gasto_salud_pbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.cant_quirofano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "cant_quirofanos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cant quirofano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cant_quirofanos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.camas_hospitalaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "camas_hospitalarias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "camas hospitalaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "camas_hospitalarias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.robots_hosp_pub": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "robots_hosp_pub"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "robots hosp pub": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "robot hosp pub": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "robots_hosp_pub": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "robot hosp inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "robot hosp tavern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "robot hosp hostelry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "robot hosp saloon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "robot hosp hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "robot hosp local": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "paise.cant_pac_renales_anuale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "cant_pac_renales_anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cant pac renales anuale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cant pac renale anuale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "cant_pac_renales_anuales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.transplantes_anuale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "transplantes_anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transplantes anuale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transplante anuale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "transplantes_anuales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.transplantes_riñon_anuale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "transplantes_riñon_anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transplantes riñon anuale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transplante riñon anuale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "transplantes_riñon_anuales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "paise.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paise.id_moneda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "id_monedas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id moneda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_monedas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential moneda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hospitales_latam": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "hospitales_latam"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales latam": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hospitales_latam": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "HOSPITALES TOTALES": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hosp_latam_publicos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "%hosp_latam_publicos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%hosp_latam_publicos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage hosp_latam_publico": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct hosp_latam_publico": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hosp_latam_privados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "%hosp_latam_privados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%hosp_latam_privados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage hosp_latam_privado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct hosp_latam_privado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hospitales_publ_latam": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "hospitales_publ_latam"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales publ latam": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hospitales_publ_latam": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PÚBLICOS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Hosp Públicos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.hospitales_priv_latam": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "hospitales_priv_latam"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales priv latam": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hospitales_priv_latam": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PRIVADOS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Hosp Privados": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.total_camas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "total_camas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total camas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_camas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "camas": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate camas": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall camas": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "CAMAS HOSPITALARIAS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.total_quirofanos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "total_quirofanos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total quirofanos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_quirofanos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate quirofano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall quirofano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "QUIRÓFANOS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.trasplantes_anuales_sin_renal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "trasplantes_anuales_sin_renal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trasplantes anuales sin renal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trasplantes_anuales_sin_renal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "trasplante anuale wickedness renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale iniquity renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale depravity renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale immorality renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale debauchery renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale turpitude renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "trasplante anuale evil renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "trasplante anuale peccadillo renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "trasplante anuale offence renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "trasplante anuale offense renal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "NO RENAL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "paise.traspl_renal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "traspl_renal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "traspl renal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "traspl_renal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "RENAL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Trasplantes renales anuales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.capex": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "CAPEX"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capex": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.opex": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "OPEX"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "opex": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.precio_compra1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "Precio compra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio compra": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costo_kit_cirugía": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "Costo kit cirugía"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo kit cirugía": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costos_operativos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "Costos Operativos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costos operativos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.costos_mantenimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "Costos Mantenimiento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costos mantenimiento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.procedimientos_anuales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "Procedimientos Anuales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "procedimientos anuales": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parámetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro.parámetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetro",
+			          "ConceptualProperty": "Parámetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parámetro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parámetro name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "parámetro.parámetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetro",
+			          "ConceptualProperty": "Parámetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parámetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro.parámetro_orden": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetro",
+			          "ConceptualProperty": "Parámetro Orden"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parámetro orden": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paise.precio_cirugia_estimado_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "precio_cirugia_estimado_min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio cirugia estimado min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_cirugia_estimado_min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "precio cirugia estimado minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "paise.precio_cirugia_estimado_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "paises",
+			          "ConceptualProperty": "precio_cirugia_estimado_max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio cirugia estimado max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_cirugia_estimado_max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "precio cirugia estimado maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.kit_startup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "KitStartup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kit startup": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KitStartup": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "startup": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.impuestos_importacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "ImpuestosImportacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "impuestos importacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ImpuestosImportacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.promedio_inst": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "PromedioInst"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio inst": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PromedioInst": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.hospitales_por_modelo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "Hospitales por Modelo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales por modelo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Hospitales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.mMercadoRobot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "%mMercadoRobot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%mMercadoRobot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage mmercadorobot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct mmercadorobot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "competidore.procedimx_cvar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "competidores",
+			          "ConceptualProperty": "ProcedimxCvar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "procedimx cvar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ProcedimxCvar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hospitale.en_rankings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hospitales",
+			          "ConceptualProperty": "En Rankings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "en rankings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rankings": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "en status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "en classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "en position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "en place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "en grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "en standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "en level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "en rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "EN RANKING TEC O PRESTIGIO": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "relacione_has_hospitale": {
+			      "Binding": {
+			        "ConceptualEntity": "relaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "relacione": {
+			          "Target": {
+			            "Entity": "relacione"
+			          }
+			        },
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "relacione"
+			            },
+			            "Object": {
+			              "Role": "hospitale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "relaciones_have_hospitales"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "relacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_relaciones"
+			        }
+			      ]
+			    },
+			    "relacione_has_competidore": {
+			      "Binding": {
+			        "ConceptualEntity": "relaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "relacione": {
+			          "Target": {
+			            "Entity": "relacione"
+			          }
+			        },
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "relacione"
+			            },
+			            "Object": {
+			              "Role": "competidore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "relaciones_have_competidores"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "relacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_relaciones"
+			        }
+			      ]
+			    },
+			    "hospitale_has_paise": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "paise"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_paises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "hospitale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hospitales"
+			        }
+			      ]
+			    },
+			    "hospitale_has_en_rankings": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.en_rankings": {
+			          "Target": {
+			            "Entity": "hospitale.en_rankings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.en_rankings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_en_rankings"
+			        }
+			      ]
+			    },
+			    "competidore_has_procedimx_cvar": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.procedimx_cvar": {
+			          "Target": {
+			            "Entity": "competidore.procedimx_cvar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.procedimx_cvar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_procedimx_cvar"
+			        }
+			      ]
+			    },
+			    "relacione_has_hospitale_mMercadoRobot": {
+			      "Binding": {
+			        "ConceptualEntity": "relaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "relacione": {
+			          "Target": {
+			            "Entity": "relacione"
+			          }
+			        },
+			        "hospitale.mMercadoRobot": {
+			          "Target": {
+			            "Entity": "hospitale.mMercadoRobot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "relacione"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mMercadoRobot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "relaciones_have_mMercadoRobot"
+			        }
+			      ]
+			    },
+			    "relacione_has_hospitale_hospitales_por_modelo": {
+			      "Binding": {
+			        "ConceptualEntity": "relaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "relacione": {
+			          "Target": {
+			            "Entity": "relacione"
+			          }
+			        },
+			        "hospitale.hospitales_por_modelo": {
+			          "Target": {
+			            "Entity": "hospitale.hospitales_por_modelo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "relacione"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hospitales_por_modelo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "relaciones_have_hospitales_por_modelo"
+			        }
+			      ]
+			    },
+			    "competidore_has_promedio_inst": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.promedio_inst": {
+			          "Target": {
+			            "Entity": "competidore.promedio_inst"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.promedio_inst"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_promedio_inst"
+			        }
+			      ]
+			    },
+			    "competidore_has_impuestos_importacion": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.impuestos_importacion": {
+			          "Target": {
+			            "Entity": "competidore.impuestos_importacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.impuestos_importacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_impuestos_importacion"
+			        }
+			      ]
+			    },
+			    "competidore_has_kit_startup": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.kit_startup": {
+			          "Target": {
+			            "Entity": "competidore.kit_startup"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.kit_startup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_kit_startup"
+			        }
+			      ]
+			    },
+			    "paise_has_precio_cirugia_estimado_max": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.precio_cirugia_estimado_max": {
+			          "Target": {
+			            "Entity": "paise.precio_cirugia_estimado_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.precio_cirugia_estimado_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_precio_cirugia_estimado_maxes"
+			        }
+			      ]
+			    },
+			    "paise_has_precio_cirugia_estimado_min": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.precio_cirugia_estimado_min": {
+			          "Target": {
+			            "Entity": "paise.precio_cirugia_estimado_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.precio_cirugia_estimado_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_precio_cirugia_estimado_mins"
+			        }
+			      ]
+			    },
+			    "parámetro_has_parámetro": {
+			      "Binding": {
+			        "ConceptualEntity": "Parámetro"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parámetro": {
+			          "Target": {
+			            "Entity": "parámetro"
+			          }
+			        },
+			        "parámetro.parámetro": {
+			          "Target": {
+			            "Entity": "parámetro.parámetro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parámetro"
+			            },
+			            "Object": {
+			              "Role": "parámetro.parámetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parámetros_have_parámetros"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "parámetro"
+			            },
+			            "Name": {
+			              "Role": "parámetro.parámetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parámetros_are_names_IDs_of_parámetros"
+			        }
+			      ]
+			    },
+			    "competidore_has_procedimientos_anuales": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.procedimientos_anuales": {
+			          "Target": {
+			            "Entity": "competidore.procedimientos_anuales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.procedimientos_anuales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_procedimientos_anuales"
+			        }
+			      ]
+			    },
+			    "competidore_has_costos_mantenimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costos_mantenimiento": {
+			          "Target": {
+			            "Entity": "competidore.costos_mantenimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costos_mantenimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costos_mantenimiento"
+			        }
+			      ]
+			    },
+			    "competidore_has_costos_operativos": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costos_operativos": {
+			          "Target": {
+			            "Entity": "competidore.costos_operativos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costos_operativos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costos_operativos"
+			        }
+			      ]
+			    },
+			    "competidore_has_costo_kit_cirugía": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costo_kit_cirugía": {
+			          "Target": {
+			            "Entity": "competidore.costo_kit_cirugía"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costo_kit_cirugía"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costo_kit_cirugía"
+			        }
+			      ]
+			    },
+			    "competidore_has_precio_compra1": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.precio_compra1": {
+			          "Target": {
+			            "Entity": "competidore.precio_compra1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.precio_compra1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_precio_compra"
+			        }
+			      ]
+			    },
+			    "competidore_has_opex": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.opex": {
+			          "Target": {
+			            "Entity": "competidore.opex"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.opex"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_opex"
+			        }
+			      ]
+			    },
+			    "competidore_has_capex": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.capex": {
+			          "Target": {
+			            "Entity": "competidore.capex"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.capex"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_capex"
+			        }
+			      ]
+			    },
+			    "paise_has_traspl_renal": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.traspl_renal": {
+			          "Target": {
+			            "Entity": "paise.traspl_renal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.traspl_renal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_traspl_renal"
+			        }
+			      ]
+			    },
+			    "paise_has_trasplantes_anuales_sin_renal": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.trasplantes_anuales_sin_renal": {
+			          "Target": {
+			            "Entity": "paise.trasplantes_anuales_sin_renal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.trasplantes_anuales_sin_renal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_trasplantes_anuales_sin_renal"
+			        }
+			      ]
+			    },
+			    "paise_has_total_quirofanos": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.total_quirofanos": {
+			          "Target": {
+			            "Entity": "paise.total_quirofanos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.total_quirofanos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_total_quirofanos"
+			        }
+			      ]
+			    },
+			    "paise_has_total_camas": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.total_camas": {
+			          "Target": {
+			            "Entity": "paise.total_camas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.total_camas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_total_camas"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitales_priv_latam": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hospitales_priv_latam": {
+			          "Target": {
+			            "Entity": "paise.hospitales_priv_latam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hospitales_priv_latam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hospitales_priv_latam"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitales_publ_latam": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hospitales_publ_latam": {
+			          "Target": {
+			            "Entity": "paise.hospitales_publ_latam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hospitales_publ_latam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hospitales_publ_latam"
+			        }
+			      ]
+			    },
+			    "paise_has_hosp_latam_privados": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hosp_latam_privados": {
+			          "Target": {
+			            "Entity": "paise.hosp_latam_privados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hosp_latam_privados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hosp_latam_privados"
+			        }
+			      ]
+			    },
+			    "paise_has_hosp_latam_publicos": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hosp_latam_publicos": {
+			          "Target": {
+			            "Entity": "paise.hosp_latam_publicos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hosp_latam_publicos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hosp_latam_publicos"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitales_latam": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hospitales_latam": {
+			          "Target": {
+			            "Entity": "paise.hospitales_latam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hospitales_latam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hospitales_latam"
+			        }
+			      ]
+			    },
+			    "paise_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.año": {
+			          "Target": {
+			            "Entity": "paise.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_años"
+			        }
+			      ]
+			    },
+			    "paise_has_transplantes_riñon_anuale": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.transplantes_riñon_anuale": {
+			          "Target": {
+			            "Entity": "paise.transplantes_riñon_anuale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.transplantes_riñon_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_transplantes_riñon_anuales"
+			        }
+			      ]
+			    },
+			    "paise_has_transplantes_anuale": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.transplantes_anuale": {
+			          "Target": {
+			            "Entity": "paise.transplantes_anuale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.transplantes_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_transplantes_anuales"
+			        }
+			      ]
+			    },
+			    "paise_has_cant_pac_renales_anuale": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.cant_pac_renales_anuale": {
+			          "Target": {
+			            "Entity": "paise.cant_pac_renales_anuale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.cant_pac_renales_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_cant_pac_renales_anuales"
+			        }
+			      ]
+			    },
+			    "paise_has_robots_hosp_pub": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.robots_hosp_pub": {
+			          "Target": {
+			            "Entity": "paise.robots_hosp_pub"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.robots_hosp_pub"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_robots_hosp_pubs"
+			        }
+			      ]
+			    },
+			    "paise_has_camas_hospitalaria": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.camas_hospitalaria": {
+			          "Target": {
+			            "Entity": "paise.camas_hospitalaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.camas_hospitalaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_camas_hospitalarias"
+			        }
+			      ]
+			    },
+			    "paise_has_cant_quirofano": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.cant_quirofano": {
+			          "Target": {
+			            "Entity": "paise.cant_quirofano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.cant_quirofano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_cant_quirofanos"
+			        }
+			      ]
+			    },
+			    "paise_has_gasto_salud_pbi": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.gasto_salud_pbi": {
+			          "Target": {
+			            "Entity": "paise.gasto_salud_pbi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.gasto_salud_pbi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_gasto_salud_pbis"
+			        }
+			      ]
+			    },
+			    "paise_has_hosp_privado": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hosp_privado": {
+			          "Target": {
+			            "Entity": "paise.hosp_privado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hosp_privado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hosp_privados"
+			        }
+			      ]
+			    },
+			    "paise_has_hosp_publico": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.hosp_publico": {
+			          "Target": {
+			            "Entity": "paise.hosp_publico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.hosp_publico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_hosp_publicos"
+			        }
+			      ]
+			    },
+			    "paise_has_cantidad_hospitale": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.cantidad_hospitale": {
+			          "Target": {
+			            "Entity": "paise.cantidad_hospitale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.cantidad_hospitale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_cantidad_hospitales"
+			        }
+			      ]
+			    },
+			    "paise_has_poblacion_total": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.poblacion_total": {
+			          "Target": {
+			            "Entity": "paise.poblacion_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.poblacion_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_poblacion_totals"
+			        }
+			      ]
+			    },
+			    "paise_has_nombre_pais": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.nombre_pais": {
+			          "Target": {
+			            "Entity": "paise.nombre_pais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.nombre_pais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_nombre_paises"
+			        }
+			      ]
+			    },
+			    "paise_has_id_pais": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "paise.id_pais": {
+			          "Target": {
+			            "Entity": "paise.id_pais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "paise.id_pais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_id_paises"
+			        }
+			      ]
+			    },
+			    "relacione_has_id_registro": {
+			      "Binding": {
+			        "ConceptualEntity": "relaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "relacione": {
+			          "Target": {
+			            "Entity": "relacione"
+			          }
+			        },
+			        "relacione.id_registro": {
+			          "Target": {
+			            "Entity": "relacione.id_registro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "relacione"
+			            },
+			            "Object": {
+			              "Role": "relacione.id_registro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "relaciones_have_id_registros"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitale_mercado_publ_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "hospitale.mercado_publ_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_publ_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_publ_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_mercado_publ_abarcado"
+			        }
+			      ]
+			    },
+			    "hospitale_has_mercado_publ_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.mercado_publ_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_publ_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_publ_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_mercado_publ_abarcado"
+			        }
+			      ]
+			    },
+			    "hospitale_has_hosp_privados_robot1": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.hosp_privados_robot1": {
+			          "Target": {
+			            "Entity": "hospitale.hosp_privados_robot1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hosp_privados_robot1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_hosp_privados_robot"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitale_mercado_priv_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "hospitale.mercado_priv_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_priv_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_priv_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_mercado_priv_abarcado"
+			        }
+			      ]
+			    },
+			    "hospitale_has_mercado_priv_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.mercado_priv_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_priv_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_priv_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_mercado_priv_abarcado"
+			        }
+			      ]
+			    },
+			    "paise_has_hospitale_mercado_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "hospitale.mercado_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_mercado_abarcado"
+			        }
+			      ]
+			    },
+			    "hospitale_has_mercado_abarcado": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.mercado_abarcado": {
+			          "Target": {
+			            "Entity": "hospitale.mercado_abarcado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.mercado_abarcado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_mercado_abarcado"
+			        }
+			      ]
+			    },
+			    "hospitale_has_hosp_publicos_robot1": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.hosp_publicos_robot1": {
+			          "Target": {
+			            "Entity": "hospitale.hosp_publicos_robot1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hosp_publicos_robot1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_hosp_publicos_robot"
+			        }
+			      ]
+			    },
+			    "hospitale_has_hosp_privados_robot": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.hosp_privados_robot": {
+			          "Target": {
+			            "Entity": "hospitale.hosp_privados_robot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hosp_privados_robot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_hosp_privados_robot1"
+			        }
+			      ]
+			    },
+			    "hospitale_has_hosp_publicos_robot": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.hosp_publicos_robot": {
+			          "Target": {
+			            "Entity": "hospitale.hosp_publicos_robot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hosp_publicos_robot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_hosp_publicos_robot1"
+			        }
+			      ]
+			    },
+			    "hospitale_has_hospitales_con_robot": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.hospitales_con_robot": {
+			          "Target": {
+			            "Entity": "hospitale.hospitales_con_robot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.hospitales_con_robot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_hospitales_con_robot"
+			        }
+			      ]
+			    },
+			    "hospitale_has_ranking": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.ranking": {
+			          "Target": {
+			            "Entity": "hospitale.ranking"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.ranking"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_ranking"
+			        }
+			      ]
+			    },
+			    "hospitale_has_longitud": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.longitud": {
+			          "Target": {
+			            "Entity": "hospitale.longitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.longitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_longituds"
+			        }
+			      ]
+			    },
+			    "hospitale_has_latitud": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.latitud": {
+			          "Target": {
+			            "Entity": "hospitale.latitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.latitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_latituds"
+			        }
+			      ]
+			    },
+			    "hospitale_has_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.ciudad": {
+			          "Target": {
+			            "Entity": "hospitale.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_ciudad"
+			        }
+			      ]
+			    },
+			    "hospitale_has_tipo_gestion": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.tipo_gestion": {
+			          "Target": {
+			            "Entity": "hospitale.tipo_gestion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.tipo_gestion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_tipo_gestions"
+			        }
+			      ]
+			    },
+			    "hospitale_has_nombre_hospital": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.nombre_hospital": {
+			          "Target": {
+			            "Entity": "hospitale.nombre_hospital"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.nombre_hospital"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_nombre_hospitals"
+			        }
+			      ]
+			    },
+			    "hospitale_has_id_hospital": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.id_hospital": {
+			          "Target": {
+			            "Entity": "hospitale.id_hospital"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Object": {
+			              "Role": "hospitale.id_hospital"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_have_id_hospitals"
+			        }
+			      ]
+			    },
+			    "cotizacione_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione": {
+			          "Target": {
+			            "Entity": "cotizacione"
+			          }
+			        },
+			        "cotizacione.fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotizaciones_have_fechas"
+			        }
+			      ]
+			    },
+			    "cotizacione_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione": {
+			          "Target": {
+			            "Entity": "cotizacione"
+			          }
+			        },
+			        "cotizacione.valor": {
+			          "Target": {
+			            "Entity": "cotizacione.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotizaciones_have_valor"
+			        }
+			      ]
+			    },
+			    "cotizacione_has_id_moneda": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione": {
+			          "Target": {
+			            "Entity": "cotizacione"
+			          }
+			        },
+			        "cotizacione.id_moneda": {
+			          "Target": {
+			            "Entity": "cotizacione.id_moneda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.id_moneda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotizaciones_have_id_monedas"
+			        }
+			      ]
+			    },
+			    "competidore_has_e_gastos_operativos_anuale": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.e_gastos_operativos_anuale": {
+			          "Target": {
+			            "Entity": "competidore.e_gastos_operativos_anuale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.e_gastos_operativos_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_e_gastos_operativos_anuales"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.e_gastos_operativos_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "e_gastos_operativos_anuale_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_formacion_continua_staff": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.formacion_continua_staff": {
+			          "Target": {
+			            "Entity": "competidore.formacion_continua_staff"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.formacion_continua_staff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_formacion_continua_staves"
+			        }
+			      ]
+			    },
+			    "competidore_has_mantenim_postgarantia_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.mantenim_postgarantia_anual": {
+			          "Target": {
+			            "Entity": "competidore.mantenim_postgarantia_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.mantenim_postgarantia_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_mantenim_postgarantia_anuals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.mantenim_postgarantia_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mantenim_postgarantia_anual_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_num_procedimientos_anuale": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.num_procedimientos_anuale": {
+			          "Target": {
+			            "Entity": "competidore.num_procedimientos_anuale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.num_procedimientos_anuale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_num_procedimientos_anuales"
+			        }
+			      ]
+			    },
+			    "competidore_has_costo_kit_cirugia": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costo_kit_cirugia": {
+			          "Target": {
+			            "Entity": "competidore.costo_kit_cirugia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costo_kit_cirugia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costo_kit_cirugias"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.costo_kit_cirugia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_kit_cirugia_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_c_var": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.c_var": {
+			          "Target": {
+			            "Entity": "competidore.c_var"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.c_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_c_vars"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.c_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "c_var_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_costo_site_prep_refaccion_max": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costo_site_prep_refaccion_max": {
+			          "Target": {
+			            "Entity": "competidore.costo_site_prep_refaccion_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costo_site_prep_refaccion_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costo_site_prep_refaccion_maxes"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.costo_site_prep_refaccion_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_site_prep_refaccion_max_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_costo_site_prep_refaccion_min": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costo_site_prep_refaccion_min": {
+			          "Target": {
+			            "Entity": "competidore.costo_site_prep_refaccion_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costo_site_prep_refaccion_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costo_site_prep_refaccion_mins"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.costo_site_prep_refaccion_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_site_prep_refaccion_min_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_costo_importacion_imp": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.costo_importacion_imp": {
+			          "Target": {
+			            "Entity": "competidore.costo_importacion_imp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.costo_importacion_imp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_costo_importacion_imps"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.costo_importacion_imp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_importacion_imp_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_precio_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.precio_compra": {
+			          "Target": {
+			            "Entity": "competidore.precio_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.precio_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_precio_compras"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "competidore.precio_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "precio_compra_indicates_how_expensive_competidores_are"
+			        }
+			      ]
+			    },
+			    "competidore_has_prom_disminucion_dias_inter": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.prom_disminucion_dias_inter": {
+			          "Target": {
+			            "Entity": "competidore.prom_disminucion_dias_inter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.prom_disminucion_dias_inter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_prom_disminucion_dias_inter"
+			        }
+			      ]
+			    },
+			    "competidore_has_cirugia_renal": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.cirugia_renal": {
+			          "Target": {
+			            "Entity": "competidore.cirugia_renal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.cirugia_renal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_cirugia_renal"
+			        }
+			      ]
+			    },
+			    "competidore_has_tipo_cirugia": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.tipo_cirugia": {
+			          "Target": {
+			            "Entity": "competidore.tipo_cirugia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.tipo_cirugia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_tipo_cirugias"
+			        }
+			      ]
+			    },
+			    "competidore_has_pais_proveedor": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.pais_proveedor": {
+			          "Target": {
+			            "Entity": "competidore.pais_proveedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.pais_proveedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_pais_proveedors"
+			        }
+			      ]
+			    },
+			    "competidore_has_proveedor": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.proveedor": {
+			          "Target": {
+			            "Entity": "competidore.proveedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.proveedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_proveedors"
+			        }
+			      ]
+			    },
+			    "competidore_has_nombre_robot": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.nombre_robot": {
+			          "Target": {
+			            "Entity": "competidore.nombre_robot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.nombre_robot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_nombre_robots"
+			        }
+			      ]
+			    },
+			    "competidore_has_id_competidor": {
+			      "Binding": {
+			        "ConceptualEntity": "competidores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "competidore": {
+			          "Target": {
+			            "Entity": "competidore"
+			          }
+			        },
+			        "competidore.id_competidor": {
+			          "Target": {
+			            "Entity": "competidore.id_competidor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "competidore"
+			            },
+			            "Object": {
+			              "Role": "competidore.id_competidor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "competidores_have_id_competidors"
+			        }
+			      ]
+			    },
+			    "hospitale_in_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "hospitales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hospitale": {
+			          "Target": {
+			            "Entity": "hospitale"
+			          }
+			        },
+			        "hospitale.ciudad": {
+			          "Target": {
+			            "Entity": "hospitale.ciudad"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "hospitale.ciudad"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hospitale"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hospitale.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hospitales_are_in_ciudad"
+			        }
+			      ]
+			    },
+			    "paise_has_cotizacione": {
+			      "Binding": {
+			        "ConceptualEntity": "paises"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paise": {
+			          "Target": {
+			            "Entity": "paise"
+			          }
+			        },
+			        "cotizacione": {
+			          "Target": {
+			            "Entity": "cotizacione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paise"
+			            },
+			            "Object": {
+			              "Role": "cotizacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "paises_have_cotizaciones"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione"
+			            },
+			            "Object": {
+			              "Role": "paise"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotizaciones_have_paises"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha"
+			          }
+			        },
+			        "cotizacione.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_jerarquía_de_fecha_has_cotizacione_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "cotizacione.fecha.año": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_jerarquía_de_fecha_has_cotizacione_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "cotizacione.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_jerarquía_de_fecha_has_cotizacione_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "cotizacione.fecha.me": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_jerarquía_de_fecha_has_cotizacione_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "cotizacione.fecha.día": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_año_has_cotizacione_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.año": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.año"
+			          }
+			        },
+			        "cotizacione.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cotizacione.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_trimestre_has_cotizacione_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.trimestre"
+			          }
+			        },
+			        "cotizacione.fecha.me": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cotizacione.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "cotizacione_fecha_me_has_cotizacione_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "cotizaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotizacione.fecha.me": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.me"
+			          }
+			        },
+			        "cotizacione.fecha.día": {
+			          "Target": {
+			            "Entity": "cotizacione.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "cotizacione.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cotizacione.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cotizacione.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

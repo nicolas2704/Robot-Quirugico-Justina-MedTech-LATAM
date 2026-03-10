@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1154.1657473800331,
+            "y": 173.3604522890237
+          },
+          "nodeIndex": "cotizaciones",
+          "nodeLineageTag": "04cc58a6-8ef0-48b3-9dc0-b500fc635354",
+          "size": {
+            "height": 159.5069319181288,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 573.088239596195,
+            "y": 0
+          },
+          "nodeIndex": "hospitales",
+          "nodeLineageTag": "5d4088f0-5cd2-401e-8f8f-0e93546da86f",
+          "size": {
+            "height": 568.69097807128708,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 872.95049999191565,
+            "y": 0
+          },
+          "nodeIndex": "paises",
+          "nodeLineageTag": "efaed663-5a09-45d2-99df-3ad4a195519b",
+          "size": {
+            "height": 752.73578459871874,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 288.73311612300068,
+            "y": 0
+          },
+          "nodeIndex": "relaciones",
+          "nodeLineageTag": "07f6e13e-8ff7-41e8-90d9-8503328315d4",
+          "size": {
+            "height": 155.9493671829579,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 23.131036194138503,
+            "y": 18.736212083263112
+          },
+          "nodeIndex": "competidores",
+          "nodeLineageTag": "f750d182-7874-44d3-9ae5-739946f97200",
+          "size": {
+            "height": 818.38817996153909,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 311.15877512849147,
+            "y": 485.15066114100864
+          },
+          "nodeIndex": "Parámetro",
+          "nodeLineageTag": "3d25de7e-cb68-466b-b016-035fbff08526",
+          "size": {
+            "height": 160.91701823169,
+            "width": 234
+          },
+          "zIndex": 6
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 56.072555534658221,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

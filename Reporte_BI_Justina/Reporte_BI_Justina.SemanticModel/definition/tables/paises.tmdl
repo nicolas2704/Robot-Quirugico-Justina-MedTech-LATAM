@@ -1,0 +1,206 @@
+table paises
+	lineageTag: efaed663-5a09-45d2-99df-3ad4a195519b
+
+	measure hospitales_latam = CALCULATE(SUM(paises[cantidad_hospitales]))
+		formatString: #,0
+		lineageTag: a2a469e9-bd48-4a4d-9c45-a0dbd9fdb93c
+
+	measure %hosp_latam_publicos = DIVIDE([hospitales_publ_latam], [hospitales_latam], 0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: fbac414d-4515-4779-bbc3-2b28e813be7b
+
+	measure %hosp_latam_privados = DIVIDE([hospitales_priv_latam],[hospitales_latam],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 55904e30-c0e2-4839-955b-caeececaa1cc
+
+	measure hospitales_publ_latam = CALCULATE(SUM(paises[hosp_publicos]))
+		formatString: 0
+		lineageTag: 3c9d7483-3855-4e62-9ad7-a707023ea12a
+
+	measure hospitales_priv_latam = CALCULATE(SUM(paises[hosp_privados]))
+		formatString: 0
+		lineageTag: 2b37b668-7c94-4590-8dfd-855220193477
+
+	measure total_camas = CALCULATE(SUM(paises[camas_hospitalarias]))
+		formatString: #,0
+		lineageTag: 8f141f75-abb8-458c-a210-de530c695186
+
+	measure total_quirofanos = CALCULATE(SUM(paises[cant_quirofanos]))
+		formatString: #,0
+		lineageTag: cc3c27dc-1f1a-4253-bb14-ea756a8295f0
+
+	measure trasplantes_anuales_sin_renal = CALCULATE(SUM(paises[transplantes_anuales])-SUM(paises[transplantes_riñon_anuales]))
+		formatString: 0
+		lineageTag: a0b81210-13c7-4fbf-bd0e-43d93961b007
+
+	measure traspl_renal = CALCULATE(SUM(paises[transplantes_riñon_anuales]))
+		formatString: 0
+		lineageTag: 76f226f1-e153-4416-a45a-000c2d893003
+
+	column id_pais
+		dataType: string
+		lineageTag: 9a983f7d-c81a-43e1-b4ce-10d9d27dc53c
+		summarizeBy: none
+		sourceColumn: id_pais
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_pais
+		dataType: string
+		lineageTag: 7a8fabe9-0c01-4823-abbc-743857598485
+		summarizeBy: none
+		sourceColumn: nombre_pais
+
+		annotation SummarizationSetBy = Automatic
+
+	column poblacion_total
+		dataType: int64
+		formatString: 0
+		lineageTag: 1e46b6d8-7753-4611-9e87-7a1c0c03f20f
+		summarizeBy: sum
+		sourceColumn: poblacion_total
+
+		annotation SummarizationSetBy = Automatic
+
+	column cantidad_hospitales
+		dataType: int64
+		formatString: 0
+		lineageTag: 5478023a-1dea-49df-8591-a284ae8fb742
+		summarizeBy: sum
+		sourceColumn: cantidad_hospitales
+
+		annotation SummarizationSetBy = Automatic
+
+	column hosp_publicos
+		dataType: int64
+		formatString: 0
+		lineageTag: 11edc76a-fc96-4c04-bd6b-7ad42da8e8ef
+		summarizeBy: sum
+		sourceColumn: hosp_publicos
+
+		annotation SummarizationSetBy = Automatic
+
+	column hosp_privados
+		dataType: int64
+		formatString: 0
+		lineageTag: f847fd2f-b9dc-4f62-afe4-738b268c791d
+		summarizeBy: sum
+		sourceColumn: hosp_privados
+
+		annotation SummarizationSetBy = Automatic
+
+	column gasto_salud_pbi
+		dataType: double
+		lineageTag: 36ed4129-c30b-4716-8bcc-c3313e3f4bce
+		summarizeBy: sum
+		sourceColumn: gasto_salud_pbi
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cant_quirofanos
+		dataType: int64
+		formatString: 0
+		lineageTag: db973ee9-8b37-40a1-b6c3-6346f7398bd5
+		summarizeBy: sum
+		sourceColumn: cant_quirofanos
+
+		annotation SummarizationSetBy = Automatic
+
+	column camas_hospitalarias
+		dataType: int64
+		formatString: 0
+		lineageTag: ea90a9fa-6c5d-41b2-aab0-a1594bb9b925
+		summarizeBy: sum
+		sourceColumn: camas_hospitalarias
+
+		annotation SummarizationSetBy = Automatic
+
+	column robots_hosp_pub
+		dataType: string
+		lineageTag: 429cbca4-a0b0-439e-8e5d-1337014996b6
+		summarizeBy: none
+		sourceColumn: robots_hosp_pub
+
+		annotation SummarizationSetBy = Automatic
+
+	column cant_pac_renales_anuales
+		dataType: int64
+		formatString: 0
+		lineageTag: dd68fafe-f4d5-433f-b558-9af0b76b7ae5
+		summarizeBy: sum
+		sourceColumn: cant_pac_renales_anuales
+
+		annotation SummarizationSetBy = Automatic
+
+	column transplantes_anuales
+		dataType: int64
+		formatString: 0
+		lineageTag: 8fdb9ae0-e94a-49d2-bf2b-5923035adb97
+		summarizeBy: sum
+		sourceColumn: transplantes_anuales
+
+		annotation SummarizationSetBy = Automatic
+
+	column transplantes_riñon_anuales
+		dataType: int64
+		formatString: 0
+		lineageTag: 23da8a7a-53ad-40d5-8167-d5785301c1d3
+		summarizeBy: sum
+		sourceColumn: transplantes_riñon_anuales
+
+		annotation SummarizationSetBy = Automatic
+
+	column año
+		dataType: int64
+		formatString: 0
+		lineageTag: b78801e9-e10d-4462-b280-ac07335718ba
+		summarizeBy: sum
+		sourceColumn: año
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_monedas
+		dataType: string
+		lineageTag: adb11aa4-d58d-4972-89fc-2c1e2f1819b4
+		summarizeBy: none
+		sourceColumn: id_monedas
+
+		annotation SummarizationSetBy = Automatic
+
+	column precio_cirugia_estimado_min
+		dataType: int64
+		formatString: 0
+		lineageTag: 014687a4-1651-43dc-ba2c-8ead442febb3
+		summarizeBy: sum
+		sourceColumn: precio_cirugia_estimado_min
+
+		annotation SummarizationSetBy = Automatic
+
+	column precio_cirugia_estimado_max
+		dataType: int64
+		formatString: 0
+		lineageTag: 009a54fa-6678-4366-abd5-54a9ed264204
+		summarizeBy: sum
+		sourceColumn: precio_cirugia_estimado_max
+
+		annotation SummarizationSetBy = Automatic
+
+	partition paises = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("robot-justina-2026.cbuik4ewoemr.sa-east-1.rds.amazonaws.com"),
+				    proyecto_justina = Origen{[Name="proyecto_justina"]}[Data],
+				    dbo_paises = proyecto_justina{[Schema="dbo",Item="paises"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(dbo_paises,{"cotizaciones", "hospitales"}),
+				    #"Filas en blanco eliminadas" = Table.SelectRows(#"Columnas quitadas", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Duplicados quitados" = Table.Distinct(#"Filas en blanco eliminadas")
+				in
+				    #"Duplicados quitados"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,47 @@
+table relaciones
+	lineageTag: 07f6e13e-8ff7-41e8-90d9-8503328315d4
+
+	column id_registro
+		dataType: int64
+		formatString: 0
+		lineageTag: 01ade260-b329-4311-a636-3dcfd3495cab
+		summarizeBy: none
+		sourceColumn: id_registro
+
+		annotation SummarizationSetBy = User
+
+	column id_hospitales
+		dataType: int64
+		formatString: 0
+		lineageTag: a7ee36c1-d294-4eee-bd0d-0cd61aba04cb
+		summarizeBy: none
+		sourceColumn: id_hospitales
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_competidores
+		dataType: int64
+		formatString: 0
+		lineageTag: 516c62ed-2f32-4063-8a01-cb0425c6bc44
+		summarizeBy: none
+		sourceColumn: id_competidores
+
+		annotation SummarizationSetBy = Automatic
+
+	partition relaciones = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("robot-justina-2026.cbuik4ewoemr.sa-east-1.rds.amazonaws.com"),
+				    proyecto_justina = Origen{[Name="proyecto_justina"]}[Data],
+				    dbo_hospitales_robotica = proyecto_justina{[Schema="dbo",Item="hospitales_robotica"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(dbo_hospitales_robotica,{"competidores_tec", "hospitales"}),
+				    #"Duplicados quitados" = Table.Distinct(#"Columnas quitadas"),
+				    #"Filas en blanco eliminadas" = Table.SelectRows(#"Duplicados quitados", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null})))
+				in
+				    #"Filas en blanco eliminadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,845 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.0.0/schema.json",
+  "displayName": "Comparacion CAPEX y OPEX",
+  "name": "a7d895a509133475c6d8",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "a9e8f51e13abed0dd15a",
+      "1f7eeb840041da055853",
+      "599a0e1a04c63c9c2ad7",
+      "2ccc90a5dc470c8c8ece"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "dde0b94f474da39805e2",
+    "sections": {
+      "dde0b94f474da39805e2": {
+        "visualContainers": {
+          "b0fae245c7c6793e2c39": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "18bdaa14a01ea269b70a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8ea4f44ca01694452422",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Costos Operativos"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Costos Operativos"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              },
+              "projections": {
+                "Y": [
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Costos Operativos"
+                    }
+                  }
+                ],
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              },
+              "parameters": {
+                "Y": [
+                  {
+                    "expr": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Parámetro"
+                          }
+                        },
+                        "Property": "Parámetro"
+                      }
+                    },
+                    "index": 0,
+                    "length": 1
+                  }
+                ]
+              }
+            }
+          },
+          "2b521f61264900010b79": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "32fb701262d340a1e29a": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "ee7cc6aaa9c0a08a0a17": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2d2b5f7cc6a40ca85460",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "cirugia_renal"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "cirugia_renal"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "2ccc90a5dc470c8c8ece": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "927bb29f48d26953009c",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "fd65baa0e1abd56863a8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Costos Mantenimiento"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c7e2bcd95c77701505a7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Costos Operativos"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "22f858a5db226a7a3342",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "ProcedimxCvar"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "columnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "ProcedimxCvar"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "62184f1daab257034b5a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9d32fad0c033014da058",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Parámetro"
+                        }
+                      },
+                      "Property": "Parámetro"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "p",
+                                "Entity": "Parámetro",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "p"
+                                            }
+                                          },
+                                          "Property": "Parámetro Campos"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'''competidores''[Costos Operativos]'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Parámetro"
+                        }
+                      },
+                      "Property": "Parámetro"
+                    }
+                  }
+                ]
+              },
+              "cachedFilterDisplayItems": [
+                {
+                  "id": {
+                    "scopeId": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Parámetro"
+                              }
+                            },
+                            "Property": "Parámetro Campos"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "'''competidores''[Costos Operativos]'"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "displayName": "Costos Operativos"
+                }
+              ]
+            }
+          },
+          "310b2040a575410e0be6": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "850c2fc1dd5bba95d068": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "6cf6b0859b0352054a9a",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "c",
+                        "Entity": "competidores",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "c"
+                                        }
+                                      },
+                                      "Property": "nombre_robot"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Justina'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f932129d3c37b67dc079": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7a866660a88098e6701a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f4772dcf2b05b693297a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hospitales"
+                        }
+                      },
+                      "Property": "%mMercadoRobot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "fafdb9c99c00e0c78d7a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hospitales"
+                        }
+                      },
+                      "Property": "Hospitales por Modelo"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "treemap",
+              "objects": {},
+              "activeProjections": {
+                "Group": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "599a0e1a04c63c9c2ad7": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "22bcc4ba9b940da8618b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "fa95701b573985500404",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Precio compra"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a3a13c5e6568c03a0d6a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "ImpuestosImportacion"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c4d32f8110208c8b0006",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "PromedioInst"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "db4f2970a7ac806d5d41",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "KitStartup"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "columnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "Precio compra"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "ec98b1bfa4084d7ddbeb": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "1f7eeb840041da055853": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "a9e8f51e13abed0dd15a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2f1b24432897c30400ce",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a5e1674b2c831000a173",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "OPEX"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e00f5fc8eaaeab1ac7ae",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "CAPEX"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "CAPEX"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "competidores"
+                        }
+                      },
+                      "Property": "nombre_robot"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d5327cb970ebda2da070": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

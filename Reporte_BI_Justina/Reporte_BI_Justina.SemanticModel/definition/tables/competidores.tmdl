@@ -1,0 +1,247 @@
+table competidores
+	lineageTag: f750d182-7874-44d3-9ae5-739946f97200
+
+	measure CAPEX = [Precio compra]+[ImpuestosImportacion]+[PromedioInst]+[KitStartup]
+		formatString: "US$"#,0;-"US$"#,0;"US$"#,0
+		lineageTag: ab2c024b-a919-4574-b43b-1faf1793c544
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure OPEX = (SUM(competidores[num_procedimientos_anuales])*sum(competidores[c_var]))+SUM(competidores[mantenim_postgarantia_anual])+sum(competidores[e_gastos_operativos_anuales])
+		formatString: "US$"#,0;-"US$"#,0;"US$"#,0
+		lineageTag: 133e8dd7-51c3-44b9-8272-13745d22fc2a
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure 'Precio compra' = sum(competidores[precio_compra])
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 77ae4162-0a7c-4c72-9be7-73a3b81413bd
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure 'Costo kit cirugía' = sum(competidores[costo_kit_cirugia])
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: e0e00b20-ae23-44fd-97da-23d234805a19
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure 'Costos Operativos' = sum(competidores[e_gastos_operativos_anuales])
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 627d241f-fd07-47e1-92a9-4510d247bec6
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure 'Costos Mantenimiento' = sum(competidores[mantenim_postgarantia_anual])
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 3d546782-5964-4916-ab0d-8407fae6d8e2
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure 'Procedimientos Anuales' = sum(competidores[num_procedimientos_anuales])
+		formatString: 0
+		lineageTag: 3a4dc239-e2d3-45e5-a45d-66ad9b8e244c
+
+	measure KitStartup = CALCULATE(SUM(competidores[costo_kit_cirugia])*25)
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 479c5b46-9649-4801-876a-388d64e28ae4
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure ImpuestosImportacion = SUM(competidores[costo_importacion_imp])
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 6f2349e8-ae05-4a82-acec-04f8682ce67f
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure PromedioInst = DIVIDE(SUM(competidores[costo_site_prep_refaccion_max])+SUM(competidores[costo_site_prep_refaccion_min]),2,0)
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: d9e1749f-dfc0-44cf-9432-ad3d9cc3be00
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	measure ProcedimxCvar = CALCULATE([Procedimientos Anuales]*sum(competidores[c_var]))
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 5ecb4138-76d7-41f0-bcb6-c022090b9192
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column id_competidor
+		dataType: int64
+		formatString: 0
+		lineageTag: 138bccc2-2e0c-4eb7-b3db-43dbe9e4c7a7
+		summarizeBy: none
+		sourceColumn: id_competidor
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_robot
+		dataType: string
+		lineageTag: c3cf1aef-38a2-4544-af71-05af28749a80
+		summarizeBy: none
+		sourceColumn: nombre_robot
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedor
+		dataType: string
+		lineageTag: 53adf18d-fb3e-4f86-ba31-61dc4afa455d
+		summarizeBy: none
+		sourceColumn: proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column pais_proveedor
+		dataType: string
+		lineageTag: 9f0e50bf-102e-46c4-8887-bc9e7cf1a030
+		summarizeBy: none
+		sourceColumn: pais_proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_cirugias
+		dataType: string
+		lineageTag: 012ff3bf-3b1d-40e2-b0bc-a9ac071dbb5d
+		summarizeBy: none
+		sourceColumn: tipo_cirugias
+
+		annotation SummarizationSetBy = Automatic
+
+	column cirugia_renal
+		dataType: string
+		lineageTag: 47adaa48-a7f2-474a-9816-2dc376d79887
+		summarizeBy: none
+		sourceColumn: cirugia_renal
+
+		annotation SummarizationSetBy = Automatic
+
+	column prom_disminucion_dias_inter
+		dataType: double
+		lineageTag: 4a8f4b68-7872-4a27-98d1-577f88d24603
+		summarizeBy: none
+		sourceColumn: prom_disminucion_dias_inter
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column precio_compra
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 8f5a9065-4bb3-4f97-8843-7eadf094682a
+		summarizeBy: none
+		sourceColumn: precio_compra
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column costo_importacion_imp
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: d3da4ee1-3c0f-41af-8967-09600eb27f21
+		summarizeBy: none
+		sourceColumn: costo_importacion_imp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column costo_site_prep_refaccion_min
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 076e3336-ed84-4c8b-8eee-419fb044c349
+		summarizeBy: none
+		sourceColumn: costo_site_prep_refaccion_min
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column costo_site_prep_refaccion_max
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: 9213d18d-cbd9-4148-be31-3b7caf8bb359
+		summarizeBy: none
+		sourceColumn: costo_site_prep_refaccion_max
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column c_var
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: a09487ed-a1a5-463c-8b3f-773980cee071
+		summarizeBy: none
+		sourceColumn: c_var
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column costo_kit_cirugia
+		dataType: decimal
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		lineageTag: 48ad35d0-53d4-4cac-8956-e1ef90b74dac
+		summarizeBy: none
+		sourceColumn: costo_kit_cirugia
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VI"}
+
+	column num_procedimientos_anuales
+		dataType: int64
+		formatString: 0
+		lineageTag: 61340626-6e80-44b3-91b0-3f6bed1d43d9
+		summarizeBy: none
+		sourceColumn: num_procedimientos_anuales
+
+		annotation SummarizationSetBy = Automatic
+
+	column mantenim_postgarantia_anual
+		dataType: decimal
+		formatString: "US$"#,0.00;-"US$"#,0.00;"US$"#,0.00
+		lineageTag: f08d3ba3-7c77-46b2-bd49-047b93d8ad36
+		summarizeBy: none
+		sourceColumn: mantenim_postgarantia_anual
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VG"}
+
+	column formacion_continua_staff
+		dataType: string
+		lineageTag: e1a62edd-a435-42f6-8dac-7c064dd0fa6b
+		summarizeBy: none
+		sourceColumn: formacion_continua_staff
+
+		annotation SummarizationSetBy = Automatic
+
+	column e_gastos_operativos_anuales
+		dataType: decimal
+		formatString: \$#,0.00;-\$#,0.00;\$#,0.00
+		lineageTag: 6cce5e79-fb46-403c-87bb-e74009c6bdc5
+		summarizeBy: none
+		sourceColumn: e_gastos_operativos_anuales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-VI"}
+
+	partition competidores = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("robot-justina-2026.cbuik4ewoemr.sa-east-1.rds.amazonaws.com"),
+				    proyecto_justina = Origen{[Name="proyecto_justina"]}[Data],
+				    dbo_competidores_tec = proyecto_justina{[Schema="dbo",Item="competidores_tec"]}[Data],
+				    #"Tipo cambiado" = Table.TransformColumnTypes(dbo_competidores_tec,{{"precio_compra", Currency.Type}, {"costo_importacion_imp", Currency.Type}, {"costo_site_prep_refaccion_min", Currency.Type}, {"costo_site_prep_refaccion_max", Currency.Type}, {"c_var", Currency.Type}, {"costo_kit_cirugia", Currency.Type}, {"mantenim_postgarantia_anual", Currency.Type}, {"e_gastos_operativos_anuales", Currency.Type}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo cambiado",{"hospitales_robotica"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

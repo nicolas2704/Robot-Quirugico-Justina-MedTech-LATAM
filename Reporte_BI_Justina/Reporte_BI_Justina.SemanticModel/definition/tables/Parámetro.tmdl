@@ -1,0 +1,51 @@
+table Parámetro
+	lineageTag: 3d25de7e-cb68-466b-b016-035fbff08526
+
+	column Parámetro
+		lineageTag: 47c514e5-ab2d-4eb4-90bc-3235b43874cc
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parámetro Orden'
+
+		relatedColumnDetails
+			groupByColumn: 'Parámetro Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parámetro Campos'
+		isHidden
+		lineageTag: 130ce3f0-2437-4cb0-9600-7f5e9e566f44
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parámetro Orden'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parámetro Orden'
+		isHidden
+		formatString: 0
+		lineageTag: fb7a9ac5-5d60-4ccb-b410-bc5cbbedaa7c
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Parámetro = calculated
+		mode: import
+		source =
+				{
+				    ("Costo kit cirugía", NAMEOF('competidores'[Costo kit cirugía]), 0),
+				    ("Costos Mantenimiento", NAMEOF('competidores'[Costos Mantenimiento]), 1),
+				    ("Costos Operativos", NAMEOF('competidores'[Costos Operativos]), 2),
+				    ("Precio compra", NAMEOF('competidores'[Precio compra]), 3),
+				    ("Procedimientos Anuales", NAMEOF('competidores'[Procedimientos Anuales]), 4)
+				}
+
+	annotation PBI_Id = b9aa427087eb4ed98a47b3c3816f6ef6
+

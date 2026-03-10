@@ -1,0 +1,53 @@
+table cotizaciones
+	lineageTag: 04cc58a6-8ef0-48b3-9dc0-b500fc635354
+
+	column id_moneda
+		dataType: string
+		lineageTag: 9d52a7c3-f15a-4b16-9de1-2cf11eb7f596
+		summarizeBy: none
+		sourceColumn: id_moneda
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor
+		dataType: decimal
+		lineageTag: e21a7101-8752-4a8f-af2a-5be3c41885d4
+		summarizeBy: sum
+		sourceColumn: valor
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column fecha
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d0af93c8-d2c4-4930-870d-b49f3642b52f
+		summarizeBy: none
+		sourceColumn: fecha
+
+		variation Variación
+			isDefault
+			relationship: a79f3877-3ac9-4a7a-a38a-61b4c03f4737
+			defaultHierarchy: LocalDateTable_8196875e-63ba-4e8f-9c89-bfb948b5dd6d.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition cotizaciones = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("robot-justina-2026.cbuik4ewoemr.sa-east-1.rds.amazonaws.com"),
+				    proyecto_justina = Origen{[Name="proyecto_justina"]}[Data],
+				    dbo_cotizaciones = proyecto_justina{[Schema="dbo",Item="cotizaciones"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(dbo_cotizaciones,{"paises"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas quitadas",{{"valor", Currency.Type}, {"fecha", type date}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

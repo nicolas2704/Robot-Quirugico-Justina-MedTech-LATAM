@@ -77,7 +77,7 @@ En este proyecto grupal, asumí el rol de **Data Engineer & Data Analyst**, enca
 En este apartado se encuentra el informe completo del proyecto, donde se detalla el análisis realizado, la metodología utilizada y las conclusiones obtenidas.
 
 📄 **Descargar o visualizar el informe completo:**  
-[Informe del Proyecto (PDF)](https://github.com/No-Country-simulation/S02-26-Equipo-63-BI/blob/94eff17faef9344d7529c12c470a571ebba59f49/Business%20Intelligence%20para%20rob%C3%B3tica%20quir%C3%BArgica%20Justina%20-%20E63.pdf)
+[Informe del Proyecto (PDF)](https://github.com/No-Country-simulation/S02-26-Equipo-63-BI/blob/main/informes_proyecto_pdf/Business%20Intelligence%20para%20rob%C3%B3tica%20quir%C3%BArgica%20Justina%20-%20E63.pdf)
 
 ---
 # 🧰 Tecnologías Utilizadas
@@ -117,7 +117,7 @@ Principales entidades:
 
 ### 📷 Ver modelo SQL
 
-![Modelo SQL](modelo_datos_justina_SQL_Server.png)
+![Modelo SQL](vistas_proyecto/5_modelo_datos_justina_SQL_Server.png)
 
 - Para el funcionamiento del código python de este repositorio se deben reemplazar variables por credenciales confidenciales
 - Los API de Gemini también son confidenciales
@@ -134,13 +134,13 @@ El análisis final se presenta mediante un **dashboard interactivo en Power BI**
 - Comparación entre competidores  
 - Estimación del mercado potencial  
 
-![Cover](Cover.png)
-![AR](Análisis_regional.png)
-![AC](Analisis_de_competidores.png)
+![Cover](vistas_proyecto/1_Cover.png)
+![AR](vistas_proyecto/2_Análisis_regional.png)
+![AC](vistas_proyecto/3_Analisis_de_competidores.png)
 
 ### 🔎 Ver reporte completo
 
-👉 **[Descargar Reporte en pdf](Reporte_BI_Justina.pdf)**
+👉 **[Descargar Reporte en pdf](informes_proyecto_pdf/Reporte_BI_Justina.pdf)**
 
 
 ---

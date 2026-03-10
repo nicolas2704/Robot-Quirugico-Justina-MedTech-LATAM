@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Reporte_BI_Justina"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "144eef88-8331-403b-b3f0-f1f49691dacc"
+  }
+}

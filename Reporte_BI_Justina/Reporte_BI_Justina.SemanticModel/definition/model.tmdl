@@ -1,0 +1,25 @@
+model Model
+	culture: es-AR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-AR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["competidores","hospitales","cotizaciones","relaciones","paises"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table competidores
+ref table cotizaciones
+ref table DateTableTemplate_bd624ad6-70ec-4d79-829d-567f7c751dcc
+ref table LocalDateTable_8196875e-63ba-4e8f-9c89-bfb948b5dd6d
+ref table hospitales
+ref table relaciones
+ref table paises
+ref table Parámetro
+
+ref cultureInfo es-AR
+

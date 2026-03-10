@@ -1,0 +1,139 @@
+table hospitales
+	lineageTag: 5d4088f0-5cd2-401e-8f8f-0e93546da86f
+
+	measure hospitales_con_robot = CALCULATE(COUNTA(hospitales[id_hospital]))
+		formatString: 0
+		lineageTag: f3a48341-8e00-4bbc-ba0e-e4a7061b2fc5
+
+	measure hosp_publicos_robot = CALCULATE(COUNTA(hospitales[id_hospital]),hospitales[tipo_gestion]="Publico")
+		formatString: 0.00
+		lineageTag: 1aaf4da5-74b0-473b-8f59-03fc68e0dfbf
+
+	measure %hosp_privados_robot = DIVIDE(hospitales[hosp_privados_robot], hospitales[hospitales_con_robot],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 8b060cc9-c8ae-42b4-8a6e-2399ed51d34f
+
+	measure %hosp_publicos_robot = DIVIDE(hospitales[hosp_publicos_robot],hospitales[hospitales_con_robot],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: a469ef3e-77b1-4355-8844-30b986be074b
+
+	measure %mercado_abarcado = DIVIDE(hospitales[hospitales_con_robot],[hospitales_latam],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: ad8c7cdb-246a-4f02-b1d2-d7e5b8ccd3ab
+
+	measure %mercado_priv_abarcado = DIVIDE(hospitales[hosp_privados_robot],paises[hospitales_priv_latam],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: b478c6e1-b909-4f11-a196-d4ba74ce5728
+
+	measure hosp_privados_robot = CALCULATE(COUNTA(hospitales[id_hospital]),hospitales[tipo_gestion]="Privado")
+		formatString: 0
+		lineageTag: 52fd9a52-66e8-438a-8c57-5d0288641664
+
+	measure %mercado_publ_abarcado = DIVIDE(hospitales[hosp_publicos_robot],paises[hospitales_publ_latam],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: c6e7779c-41ad-431d-8d3f-3525098df3bc
+
+	measure 'Hospitales por Modelo' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT(relaciones[id_registro]),
+			    CROSSFILTER(relaciones[id_competidores], competidores[id_competidor], Both)
+			)
+		formatString: 0
+		lineageTag: b7f1c8ba-68f6-42ff-89d9-e472435ca2b8
+
+	measure %mMercadoRobot = DIVIDE([Hospitales por Modelo], 159, 0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 3ff57eb1-e928-4408-a8e5-a8205b2ebf9a
+
+	measure 'En Rankings' = CALCULATE(COUNTA(hospitales[id_hospital]),hospitales[ranking]="Si")
+		formatString: 0
+		lineageTag: 523cb5ad-f522-4e45-856d-3381fed799a9
+
+	column id_hospital
+		dataType: int64
+		formatString: 0
+		lineageTag: adfa3857-a66f-4019-8a9a-cc0d8d1c76d8
+		summarizeBy: none
+		sourceColumn: id_hospital
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_hospital
+		dataType: string
+		lineageTag: 689787be-2112-4649-bb86-84b58444992d
+		summarizeBy: none
+		sourceColumn: nombre_hospital
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_gestion
+		dataType: string
+		lineageTag: 74d5fcf1-891c-4e02-b3e5-e2ae1fdd107a
+		summarizeBy: none
+		sourceColumn: tipo_gestion
+
+		annotation SummarizationSetBy = Automatic
+
+	column ciudad
+		dataType: string
+		lineageTag: 7631cea7-16e2-45b5-9a1f-51b662b40f8b
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: ciudad
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_pais
+		dataType: string
+		lineageTag: 18c67ba3-6a09-4fe1-a470-1055c75708a4
+		summarizeBy: none
+		sourceColumn: id_pais
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitud
+		dataType: string
+		lineageTag: de8be96f-07af-410b-af67-96952c4bfaf7
+		summarizeBy: none
+		sourceColumn: latitud
+
+		annotation SummarizationSetBy = Automatic
+
+	column longitud
+		dataType: string
+		lineageTag: 211c97de-9853-413f-9419-8df94ee3bbdc
+		summarizeBy: none
+		sourceColumn: longitud
+
+		annotation SummarizationSetBy = Automatic
+
+	column ranking
+		dataType: string
+		lineageTag: fb76f79a-a713-4110-9a68-05f1b92c9ae8
+		summarizeBy: none
+		sourceColumn: ranking
+
+		annotation SummarizationSetBy = Automatic
+
+	partition hospitales = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("robot-justina-2026.cbuik4ewoemr.sa-east-1.rds.amazonaws.com"),
+				    proyecto_justina = Origen{[Name="proyecto_justina"]}[Data],
+				    dbo_hospitales = proyecto_justina{[Schema="dbo",Item="hospitales"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(dbo_hospitales,{"hospitales_robotica", "paises"}),
+				    #"Duplicados quitados" = Table.Distinct(#"Columnas quitadas"),
+				    #"Filas en blanco eliminadas" = Table.SelectRows(#"Duplicados quitados", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Filas en blanco eliminadas","Público","Publico",Replacer.ReplaceText,{"tipo_gestion"}),
+				    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","30.02480076","-30.02480076",Replacer.ReplaceText,{"latitud"}),
+				    #"Valor reemplazado2" = Table.ReplaceValue(#"Valor reemplazado1","-30.02480076","-30.0346",Replacer.ReplaceText,{"latitud"}),
+				    #"Valor reemplazado3" = Table.ReplaceValue(#"Valor reemplazado2","-46.67359356","-51.2176",Replacer.ReplaceText,{"longitud"})
+				in
+				    #"Valor reemplazado3"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
