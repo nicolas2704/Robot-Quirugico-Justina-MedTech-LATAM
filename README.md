@@ -48,6 +48,14 @@ El resultado es un **sistema de análisis orientado a decisiones estratégicas e
 
 ---
 
+# 🏗️ Arquitectura y Flujo de Datos (ETL)
+
+
+> **Visualización de la Arquitectura:**
+![Arquitectura_Justina_MedTech]( https://github.com/nicolas2704/Robot-Quirugico-Justina-MedTech-LATAM/blob/main/vistas_proyecto/Diagrama%20Proyecto%20Justina%20Fondo%20Negro.png?raw=true)
+
+---
+
 # 🛠 Mi Contribución Técnica
 
 En este proyecto grupal, asumí el rol de **Data Engineer & Data Analyst**, encargándome de la infraestructura de datos y la automatización del pipeline. Mis aportes principales fueron:
